@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.use(cors());
 
-let persons = [];
+let persons = require('./api/persons.js');
 console.log('backend persons', persons);
 
 app.get('/api/persons', (request, response)=> {

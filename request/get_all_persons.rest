@@ -1,0 +1,7 @@
+DELETE   http://localhost:3001/api/persons/120548
+Content-Type: application/json
+
+{
+    "name": "Kai Aier",
+    "number": "01-93431214"
+}
